@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "standard"
+  ],
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "globals": {
+    "test": true,
+    "describe": true,
+    "expect": true,
+    "jasmine": true,
+    "jest": true,
+    "beforeEach": true,
+    "beforeAll": true,
+    "afterEach": true,
+    "afterAll": true
+  }
+}
